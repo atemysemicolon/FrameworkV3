@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/prassanna/Development/workspace/frameworkV3/Labels/annotationhandler.cpp
+annotationhandler.h
+/home/prassanna/Development/workspace/frameworkV3/Labels/annotationhandler.h
+opencv2/opencv.hpp
+-
+opencv2/core/mat.hpp
+-
+
+/home/prassanna/Development/workspace/frameworkV3/Labels/annotationhandler.h
+iostream
+-
+opencv2/opencv.hpp
+-
+
+/home/prassanna/Development/workspace/frameworkV3/Labels/main.cpp
+iostream
+-
+annotationhandler.h
+/home/prassanna/Development/workspace/frameworkV3/Labels/annotationhandler.h
+opencv2/opencv.hpp
+-
+

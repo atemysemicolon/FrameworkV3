@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="clustering" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/prassanna/Development/workspace/frameworkV3/builds/clustering" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clustering">
+         <Option output="/home/prassanna/Development/workspace/frameworkV3/builds/clustering/clustering" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/prassanna/Development/workspace/frameworkV3/builds/clustering" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/prassanna/Development/workspace/frameworkV3/Labels" />
+            <Add directory="/home/prassanna/Development/workspace/frameworkV3/features2D" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clustering" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clustering/fast">
+         <Option output="/home/prassanna/Development/workspace/frameworkV3/builds/clustering/clustering" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/prassanna/Development/workspace/frameworkV3/builds/clustering" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/prassanna/Development/workspace/frameworkV3/Labels" />
+            <Add directory="/home/prassanna/Development/workspace/frameworkV3/features2D" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clustering/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clustering_superpixels">
+         <Option output="/home/prassanna/Development/workspace/frameworkV3/builds/clustering/libclustering_superpixels.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/prassanna/Development/workspace/frameworkV3/builds/clustering" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/prassanna/Development/workspace/frameworkV3/Labels" />
+            <Add directory="/home/prassanna/Development/workspace/frameworkV3/features2D" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clustering_superpixels" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="clustering_superpixels/fast">
+         <Option output="/home/prassanna/Development/workspace/frameworkV3/builds/clustering/libclustering_superpixels.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/prassanna/Development/workspace/frameworkV3/builds/clustering" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/prassanna/Development/workspace/frameworkV3/Labels" />
+            <Add directory="/home/prassanna/Development/workspace/frameworkV3/features2D" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clustering_superpixels/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/prassanna/Development/workspace/frameworkV3/builds/clustering" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/prassanna/Development/workspace/frameworkV3/builds/clustering/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/main.cpp">
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/slicsuperpixel.cpp">
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/superpixel2d.cpp">
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/slicsuperpixel.h">
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/superpixel2d.h">
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/FindTBB.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/prassanna/Development/workspace/frameworkV3/clustering/../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\local\share\OpenCV\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
